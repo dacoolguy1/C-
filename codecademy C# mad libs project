@@ -1,0 +1,68 @@
+using System;
+
+namespace MadLibs
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      /*
+      This program MatLibs Set Up
+      Author: Temiede Emmanuel
+      */
+
+
+      // Let the user know that the program is starting:
+      Console.WriteLine("The program has started");
+
+
+
+      // Give the Mad Lib a title:
+      string title = "Mad";
+
+      Console.WriteLine(title);
+      // Define user input and variables:
+      Console.Write("Enter a name: ");
+      string userName = Console.ReadLine();
+      Console.Write("Your First Adjective: ");
+      string adj1 = Console.ReadLine();
+      Console.Write("Your Second Adjective: ") ;
+      string adj2 = Console.ReadLine();
+      Console.Write("Your third Adjective:") ;
+      string adj3 = Console.ReadLine();
+      Console.Write("Please input one verb: ");
+      string verb1 = Console.ReadLine();
+      Console.Write("Your First Noun: ");
+      string noun1 = Console.ReadLine();
+      Console.Write("Your Second Noun: ");
+      string noun2 = Console.ReadLine();
+      Console.Write("Enter a name of an animal:  ");
+      string animal = Console.ReadLine();
+      Console.Write("Enter your favourite food:  ");
+      string food = Console.ReadLine(); 
+      Console.Write("Enter your Favorite fruit; ");
+      string fruit = Console.ReadLine();
+      Console.Write("Enter your Favourite Superhero: ");
+      string superhero = Console.ReadLine();
+      Console.Write("Enter your country ");
+      string country = Console.ReadLine();
+      Console.Write("Enter your favourite dessert");
+      string dessert = Console.ReadLine();
+      Console.Write("Enter the year you were born");
+      string year = Console.ReadLine();
+
+
+
+
+
+      // The template for the story:
+
+      string story = $"This morning {userName} woke up feeling {adj1}. 'It is going to be a {adj2} day!' Outside, a bunch of {animal}s were protesting to keep {food} in stores. They began to {verb1} to the rhythm of the {noun1}, which made all the {fruit}s very {adj3}. Concerned, {userName} texted {superhero}, who flew {userName} to {country} and dropped {userName} in a puddle of frozen {dessert}. {userName} woke up in the year {year}, in a world where {noun2}s ruled the world.";
+
+Console.WriteLine(story);
+
+      // Print the story:
+
+    }
+  }
+}
